@@ -83,7 +83,7 @@ void loop() {
     lcd.print(maxTemp, 2);
     lcd.print(" C");
 
-    Serial.println("---- FINAL ----");
+    Serial.println("--- FINAL ---");
     Serial.print("Highest Temp = ");
     Serial.print(maxTemp, 2);
     Serial.println(" C");
