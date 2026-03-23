@@ -144,7 +144,7 @@ void loop() {
 
 // function prototypes for HTTP handlers
 void HTTP_handleRoot(void) {
-  server.send(200, "text/html", "");  // Send HTTP status 200 (Ok) and send some text to the browser/client
+  server.send(200, "text/html", "");   // Send HTTP status 200 (Ok) and send some text to the browser/client
 
   if (server.hasArg("State")) {
     Serial.println(server.arg("State"));
