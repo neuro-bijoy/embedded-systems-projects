@@ -8,7 +8,7 @@
 #define REPORTING_PERIOD_MS 1000
 #define FILTER_SIZE 10
 
-// --- DS18B20 ---
+// --- DS18B20 --
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
