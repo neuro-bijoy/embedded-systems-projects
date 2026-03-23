@@ -3,7 +3,6 @@
 
 #define SS_PIN 10
 #define RST_PIN 9
-
 #define RELAY_PIN 7
 #define LED_PIN 8     // Green LED (Access Granted)
 #define LED2_PIN 6    // Red LED (Access Denied)
