@@ -79,7 +79,7 @@ void loop() {
       Serial.println("Speed      : Not valid");
     }
 
-    // --- Date & Time ---
+    // -- Date & Time --
     if (gps.date.isValid() && gps.time.isValid()) {
       Serial.printf("Date/Time  : %04d-%02d-%02d %02d:%02d:%02d UTC\n",
         gps.date.year(), gps.date.month(),  gps.date.day(),
