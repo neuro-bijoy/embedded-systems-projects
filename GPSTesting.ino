@@ -1,5 +1,4 @@
 #include <TinyGPS++.h>
-
 TinyGPSPlus gps;
 HardwareSerial gpsSerial(2);  // UART2
 
